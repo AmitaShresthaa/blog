@@ -1,0 +1,94 @@
+
+body{
+    margin:0px;
+}
+
+:root{
+    --pink: rgba(221, 160, 160, 0.34);
+
+}
+.cat{
+    background-color: blanchedalmond;
+    padding:32px;
+    border-radius: 12px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 8px;
+}
+
+.hero{
+    grid-area:hero;
+    margin:20px;
+    padding:5vh;
+    background: url(./wand.jpg) right no-repeat;
+    /* background-attachment: fixed; */
+    height: 50vh;
+      
+}
+
+.hero-text{
+    grid-area:hero;
+    /* margin:20px; */
+    padding:10vh;
+    border-radius: 12px;
+    color:black;
+    background-color: var(--pink);
+    position: inherit;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.how-to{
+    margin:20px;
+    flex-wrap: wrap ;
+    padding-left: 40px;
+    grid-area: how-to;
+    font-size: large;
+    background-color: rgba(221, 160, 160, 0.231);
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.how-flex{
+    /* display:flex; */
+    flex-wrap: wrap;
+    padding-top:12px;
+}
+
+.how-to-text{
+    grid-area: how-to-text;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    /* position: relative; */
+
+}
+
+.how-to-image{
+    grid-area: how-to-image;
+    /* position: relative; */
+    width: 50vw;
+    height: 50vh;
+}
+.footer-s{
+    grid-area:footer;
+    padding:50px;
+    margin: 0;
+    background-color: rgb(58, 35, 35);
+    color:aliceblue;
+}
+/* 
+grid-container{
+    display:grid;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas: 
+        "cat cat cat"
+        "hero hero hero"
+        "how-to how-to how-to"
+        "footer-s footer-s footer-s"
+    ;
+
+} */
+
